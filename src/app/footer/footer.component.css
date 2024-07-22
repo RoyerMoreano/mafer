@@ -1,0 +1,49 @@
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.logo-buscador {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 50px; /* Ajusta según el tamaño de tu logo */
+}
+
+.buscador {
+  padding: 5px;
+  width: 300px; /* Ajusta según el tamaño deseado */
+}
+
+.filas-dialogos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.fila {
+  width: 30%; /* Ajusta para controlar el ancho de las columnas */
+  display: flex; /* Activa Flexbox */
+  flex-direction: column; /* Organiza los elementos en columna */
+  align-items: center; /* Centra los elementos horizontalmente */
+  justify-content: center; /* Centra los elementos verticalmente */
+}
+/* Estilo base para todos los enlaces */
+ul li a {
+  color: white; /* Color blanco para el texto del enlace */
+  text-decoration: none; /* Elimina el subrayado por defecto */
+}
+
+/* Efecto al pasar el mouse sobre el enlace */
+ul li a:hover {
+  color: orange; /* Cambia el color a naranja al pasar el mouse */
+}
+ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+  }
+  
